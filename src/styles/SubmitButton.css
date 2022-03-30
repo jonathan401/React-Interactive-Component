@@ -1,0 +1,19 @@
+.btn-full {
+  transition: all 0.3s;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0.7rem 0;
+  border: 0;
+  outline: none;
+  letter-spacing: 0.1rem;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  text-transform: uppercase;
+  border-radius: 4rem;
+  width: 100%;
+}
+
+.btn-full:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}

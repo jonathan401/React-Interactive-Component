@@ -1,0 +1,54 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  outline: 0;
+  border: 0;
+  transition: all 0.3s;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.badge {
+  background-color: rgb(39, 55, 71);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 1.2rem;
+}
+
+.btn-primary {
+  background-color: rgb(39, 55, 71);
+  color: rgb(124, 136, 152);
+}
+
+.btn.active {
+  background-color: rgb(124, 136, 152);
+  color: rgba(255, 255, 255, 0.637);
+}
+
+.btn-full {
+  padding: 0.7rem 0;
+  border: 0;
+  outline: none;
+  letter-spacing: 0.1rem;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  text-transform: uppercase;
+  border-radius: 4rem;
+  width: 100%;
+}
+
+/* buttons in hover states */
+.btn:hover:not(.active, .badge) {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.btn-full:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}

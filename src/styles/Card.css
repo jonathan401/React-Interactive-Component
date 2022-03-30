@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+.card {
+  font-family: 'Overpass', sans-serif;
+  max-width: 340px;
+  background-color: rgb(33, 40, 50);
+  border-radius: 1rem;
+}
+
+.rating-card {
+  padding: 2rem 1.5rem;
+}
+
+.rating {
+  background-color: rgb(42, 46, 55);
+  color: var(--orange);
+  display: inline-block;
+  border-radius: 3rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  padding: 0.3rem 1rem;
+}
+
+/* card content */
+.badge,
+.illustration {
+  margin-bottom: 1.2rem;
+}
+
+.badge {
+  background-color: rgb(39, 55, 71);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.header h2 {
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  color: rgb(251, 255, 255);
+}
+
+.card-text p {
+  font-size: 0.76rem;
+  font-weight: 400;
+  color: hsl(216, 12%, 54%);
+}
